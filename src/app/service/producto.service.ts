@@ -7,7 +7,7 @@ import { Producto } from '../models/producto';
   providedIn: 'root'
 })
 export class ProductoService {
-  productoURL='https://testdeploysbanda.herokuapp.com/producto/'
+  productoURL='/producto/'
 
   constructor(private httpClient: HttpClient) { }
 

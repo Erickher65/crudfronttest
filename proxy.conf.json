@@ -1,0 +1,7 @@
+{
+    "/producto/*":{
+        "target":"https://testdeploysbanda.herokuapp.com/",
+        "secure":false,
+        "changeOrigin": true
+    }
+}
