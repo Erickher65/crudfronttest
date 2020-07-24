@@ -1,7 +1,9 @@
-{
-    "/producto/*":{
-        "target": "http://localhost:8000",
-        "secure":false,
+const PROXY_CONFIG = {
+    "/producto/*": {
+        "target": "https://crudbacktest.herokuapp.com/",
+        "secure": false,
         "changeOrigin": true
     }
 }
+
+module.exports = PROXY_CONFIG;

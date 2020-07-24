@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiURL:'https://testdeploysbanda.herokuapp.com/producto'
+  apiURL:'https://crudbacktest.herokuapp.com/producto/'
 };
